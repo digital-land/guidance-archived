@@ -1,0 +1,24 @@
+{
+  "name": "content-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "mkdir -p docs/ && node content-frontend/compilers/content.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digital-land/content-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/digital-land/content-template/issues"
+  },
+  "homepage": "https://github.com/digital-land/content-template#readme",
+  "dependencies": {
+    "frontend": "file:content-frontend"
+  }
+}
